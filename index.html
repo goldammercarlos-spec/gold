@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Carlos Goldammer · GOLD – Digital &amp; Training</title>
+<meta name="description" content="Boxtraining, Meta-Ads und Gartenhilfe in Dresden. Direkt per WhatsApp anfragen.">
+<style>
+:root{--navy:#0F1B33;--navy2:#17274a;--gold:#C9A24A;--white:#fff;--muted:#aab3c5}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;background:var(--navy);color:var(--white);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;display:flex;justify-content:center;padding:32px 16px}
+main{width:100%;max-width:440px;text-align:center}
+.logo{width:84px;height:84px;margin:0 auto 14px;display:block}
+h1{font-size:22px;font-weight:600;margin:0;letter-spacing:.02em}
+.brand{margin:4px 0 0;color:var(--gold);font-size:14px;letter-spacing:.14em;text-transform:uppercase}
+.tag{margin:14px 0 26px;color:var(--muted);font-size:15px;line-height:1.5}
+.btn{display:block;padding:15px 18px;margin:0 0 12px;border-radius:14px;text-decoration:none;color:var(--white);background:var(--navy2);border:1px solid rgba(201,162,74,.35);font-size:16px;font-weight:500;text-align:left}
+.btn small{display:block;color:var(--muted);font-weight:400;font-size:13px;margin-top:2px}
+.btn:hover,.btn:focus-visible{border-color:var(--gold);outline:none}
+.btn.main{background:var(--gold);color:var(--navy);border-color:var(--gold)}
+.btn.main small{color:#3b3320}
+.sec{margin:26px 0 10px;color:var(--gold);font-size:12px;letter-spacing:.16em;text-transform:uppercase}
+footer{margin-top:30px;color:var(--muted);font-size:12px}
+footer a{color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<svg class="logo" viewBox="0 0 60 60" role="img" aria-label="GOLD Logo">
+<path d="M46 16 A22 22 0 1 0 46 44 L46 31 L30 31" fill="none" stroke="#fff" stroke-width="9"/>
+<path d="M30 25 L52 25 L52 36 L30 36 Z" fill="#C9A24A"/>
+</svg>
+<h1>Carlos Goldammer</h1>
+<p class="brand">GOLD – Digital &amp; Training</p>
+<p class="tag">Boxtraining, Social-Media-Marketing und Gartenhilfe in Dresden.</p>
+
+<a class="btn main" href="https://wa.me/491627408787?text=Hallo%20Carlos%2C%20ich%20interessiere%20mich%20f%C3%BCr%20...">WhatsApp schreiben<small>Schnellste Antwort</small></a>
+<a class="btn" href="tel:+491627408787">Anrufen<small>0162 7408787</small></a>
+<a class="btn" href="mailto:goldammercarlos@gmail.com">E-Mail<small>goldammercarlos@gmail.com</small></a>
+
+<p class="sec">Angebote</p>
+<a class="btn" href="https://wa.me/491627408787?text=Hallo%20Carlos%2C%20ich%20m%C3%B6chte%20ein%20kostenloses%20Probetraining.">Boxtraining<small>1:1 oder Gruppe · erstes Probetraining kostenlos</small></a>
+<a class="btn" href="https://wa.me/491627408787?text=Hallo%20Carlos%2C%20ich%20m%C3%B6chte%20mehr%20zu%20Meta-Ads%20f%C3%BCr%20mein%20Unternehmen%20wissen.">Meta-Ads und Social Media<small>Mehr Anfragen für lokale Unternehmen</small></a>
+<a class="btn" href="mailto:info.gartenhelfer@gmx.de">Gartenhelfer<small>Hecke, Beet, Rasen · Dresden</small></a>
+
+<p class="sec">Folgen</p>
+<a class="btn" href="https://www.instagram.com/boxinggymgold">Instagram<small>@boxinggymgold</small></a>
+
+<a class="btn" id="vcf" href="#">Kontakt speichern<small>Als Kontakt im Handy ablegen</small></a>
+
+<footer>© GOLD – Digital &amp; Training · Dresden · <a href="impressum.html">Impressum</a></footer>
+</main>
+<script>
+(function(){
+var v="BEGIN:VCARD\nVERSION:3.0\nN:Goldammer;Carlos;;;\nFN:Carlos Goldammer\nORG:GOLD – Digital & Training\nTITLE:Boxtrainer · Social-Media-Marketing\nTEL;TYPE=CELL:+491627408787\nEMAIL:goldammercarlos@gmail.com\nADR;TYPE=WORK:;;;Dresden;;;Deutschland\nURL:https://www.instagram.com/boxinggymgold\nEND:VCARD";
+document.getElementById("vcf").href="data:text/vcard;charset=utf-8,"+encodeURIComponent(v);
+document.getElementById("vcf").setAttribute("download","Carlos Goldammer.vcf");
+})();
+</script>
+</body>
+</html>
